@@ -57,6 +57,7 @@ body{
     width: 4px;
     height: var(--hgt);
     border-radius: 8px;
+    transform-origin: bottom center;
 }
 .show-time{
     border: 2px solid rgb(111, 240, 36);
@@ -96,5 +97,10 @@ body{
         font-size: 1em;
         text-align: center;
     }
+    .hand i {
+       
+        height: calc(var(--hgt) - 20px);
+    }
+    
     
 }
